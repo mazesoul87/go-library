@@ -2,18 +2,6 @@ module github.com/mazesoul87/go-library
 
 go 1.23.2
 
-replace github.com/mazesoul87/go-library/utils/godecimal => ./utils/godecimal
-
-replace github.com/mazesoul87/go-library/utils/gojson => ./utils/gojson
-
-replace github.com/mazesoul87/go-library/utils/gostring => ./utils/gostring
-
-replace github.com/mazesoul87/go-library/utils/gotime => ./utils/gotime
-
-replace github.com/mazesoul87/go-library/utils/gorequest => ./utils/gorequest
-
-replace github.com/mazesoul87/go-library/utils/gorandom => ./utils/gorandom
-
 require (
 	github.com/MercuryEngineering/CookieMonster v0.0.0-20180304172713-1584578b3403
 	github.com/basgys/goxml2json v1.1.0
