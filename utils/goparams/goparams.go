@@ -1,8 +1,8 @@
 package goparams
 
 import (
-	"github.com/dtapps/go-library/utils/godecimal"
-	"github.com/dtapps/go-library/utils/gojson"
+	"github.com/mazesoul87/go-library/utils/godecimal"
+	"github.com/mazesoul87/go-library/utils/gojson"
 	"log"
 	"net/url"
 )

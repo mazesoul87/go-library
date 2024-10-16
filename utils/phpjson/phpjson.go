@@ -2,7 +2,7 @@ package phpjson
 
 import (
 	"fmt"
-	"github.com/dtapps/go-library/utils/gojson"
+	"github.com/mazesoul87/go-library/utils/gojson"
 	"reflect"
 	"strings"
 )
