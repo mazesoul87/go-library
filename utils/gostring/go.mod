@@ -9,9 +9,9 @@ replace github.com/mazesoul87/go-library/utils/gotime => ../../utils/gotime
 replace github.com/mazesoul87/go-library/utils/gorandom => ../../utils/gorandom
 
 require (
-	github.com/mazesoul87/go-library/utils/gojson v1.0.7
-	github.com/mazesoul87/go-library/utils/gorandom v1.0.4
-	github.com/mazesoul87/go-library/utils/gotime v1.0.12
+	github.com/mazesoul87/go-library/utils/gojson v0.0.0-00010101000000-000000000000
+	github.com/mazesoul87/go-library/utils/gorandom v0.0.0-00010101000000-000000000000
+	github.com/mazesoul87/go-library/utils/gotime v0.0.0-00010101000000-000000000000
 )
 
 require (

@@ -12,9 +12,9 @@ replace github.com/mazesoul87/go-library/utils/gorandom => ../../utils/gorandom
 
 require (
 	github.com/MercuryEngineering/CookieMonster v0.0.0-20180304172713-1584578b3403
-	github.com/mazesoul87/go-library/utils/gojson v1.0.7
-	github.com/mazesoul87/go-library/utils/gostring v1.0.21
-	github.com/mazesoul87/go-library/utils/gotime v1.0.12
+	github.com/mazesoul87/go-library/utils/gojson v0.0.0-00010101000000-000000000000
+	github.com/mazesoul87/go-library/utils/gostring v0.0.0-00010101000000-000000000000
+	github.com/mazesoul87/go-library/utils/gotime v0.0.0-00010101000000-000000000000
 	go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace v0.55.0
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.55.0
 	go.opentelemetry.io/otel v1.30.0

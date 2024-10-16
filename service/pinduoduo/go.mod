@@ -15,10 +15,10 @@ replace github.com/mazesoul87/go-library/utils/gorequest => ../../utils/goreques
 replace github.com/mazesoul87/go-library/utils/godecimal => ../../utils/godecimal
 
 require (
-	github.com/mazesoul87/go-library/utils/godecimal v1.0.11
-	github.com/mazesoul87/go-library/utils/gojson v1.0.7
-	github.com/mazesoul87/go-library/utils/gorequest v1.0.83
-	github.com/mazesoul87/go-library/utils/gostring v1.0.21
+	github.com/mazesoul87/go-library/utils/godecimal v0.0.0-00010101000000-000000000000
+	github.com/mazesoul87/go-library/utils/gojson v0.0.0-00010101000000-000000000000
+	github.com/mazesoul87/go-library/utils/gorequest v0.0.0-00010101000000-000000000000
+	github.com/mazesoul87/go-library/utils/gostring v0.0.0-00010101000000-000000000000
 	go.opentelemetry.io/otel v1.30.0
 	go.opentelemetry.io/otel/trace v1.30.0
 )
