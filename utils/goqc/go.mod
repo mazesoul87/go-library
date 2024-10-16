@@ -1,4 +1,4 @@
-module go.dtapp.net/library/utils/goqc
+module github.com/mazesoul87/go-library/utils/goqc
 
 go 1.23
 

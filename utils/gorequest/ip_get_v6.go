@@ -2,7 +2,7 @@ package gorequest
 
 import (
 	"context"
-	"go.dtapp.net/library/utils/gostring"
+	"github.com/mazesoul87/go-library/utils/gostring"
 	"strings"
 )
 

@@ -1,3 +1,3 @@
-module go.dtapp.net/library/utils/goverify
+module github.com/mazesoul87/go-library/utils/goverify
 
 go 1.22.4

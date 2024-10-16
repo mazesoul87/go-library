@@ -2,8 +2,8 @@ package pinduoduo
 
 import (
 	"context"
-	"go.dtapp.net/library/utils/gojson"
-	"go.dtapp.net/library/utils/gorequest"
+	"github.com/mazesoul87/go-library/utils/gojson"
+	"github.com/mazesoul87/go-library/utils/gorequest"
 )
 
 type CmsPromUrlGenerateResponse struct {

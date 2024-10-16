@@ -1,4 +1,4 @@
-module go.dtapp.net/library/utils/gojson
+module github.com/mazesoul87/go-library/utils/gojson
 
 go 1.22.5
 

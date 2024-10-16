@@ -2,11 +2,11 @@ package golog
 
 import (
 	"context"
-	"go.dtapp.net/library/utils/gorequest"
+	"github.com/mazesoul87/go-library/utils/gorequest"
 	"go.opentelemetry.io/otel/trace"
 )
 
 // TraceStartSpan 开始OpenTelemetry链路追踪状态
 func TraceStartSpan(ctx context.Context, spanName string) (context.Context, trace.Span) {
-	return gorequest.TraceNewSpan(ctx, "go.dtapp.net/library/utils/golog", "golog.", spanName, Version, trace.SpanKindInternal)
+	return gorequest.TraceNewSpan(ctx, "github.com/mazesoul87/go-library/utils/golog", "golog.", spanName, Version, trace.SpanKindInternal)
 }

@@ -1,6 +1,6 @@
 package pinduoduo
 
-import "go.dtapp.net/library/utils/gorequest"
+import "github.com/mazesoul87/go-library/utils/gorequest"
 
 func (c *Client) GetClientId() string {
 	return c.config.clientId

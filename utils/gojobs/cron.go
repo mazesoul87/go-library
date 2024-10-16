@@ -3,8 +3,8 @@ package gojobs
 import (
 	"context"
 	"fmt"
+	"github.com/mazesoul87/go-library/utils/gotime"
 	"github.com/robfig/cron/v3"
-	"go.dtapp.net/library/utils/gotime"
 	"log/slog"
 )
 

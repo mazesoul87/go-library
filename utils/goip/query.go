@@ -2,8 +2,8 @@ package goip
 
 import (
 	"errors"
-	"go.dtapp.net/library/utils/goip/geoip"
-	"go.dtapp.net/library/utils/goip/qqwry"
+	"github.com/mazesoul87/go-library/utils/goip/geoip"
+	"github.com/mazesoul87/go-library/utils/goip/qqwry"
 	"net"
 )
 

@@ -1,8 +1,8 @@
 package pinduoduo
 
 import (
-	"go.dtapp.net/library/utils/godecimal"
-	"go.dtapp.net/library/utils/gorequest"
+	"github.com/mazesoul87/go-library/utils/godecimal"
+	"github.com/mazesoul87/go-library/utils/gorequest"
 	"go.opentelemetry.io/otel/trace"
 	"strings"
 )

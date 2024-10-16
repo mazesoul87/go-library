@@ -3,8 +3,8 @@ package gojobs
 import (
 	"context"
 	"errors"
+	"github.com/mazesoul87/go-library/utils/gorequest"
 	"github.com/redis/go-redis/v9"
-	"go.dtapp.net/library/utils/gorequest"
 	"gorm.io/gorm"
 )
 

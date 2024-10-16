@@ -1,6 +1,6 @@
 package gostring
 
-import "go.dtapp.net/library/utils/gotime"
+import "github.com/mazesoul87/go-library/utils/gotime"
 
 // GenerateIdLength 生成自定义长度编号
 func GenerateIdLength(customId string, dataLength int) string {

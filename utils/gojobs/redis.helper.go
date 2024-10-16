@@ -3,8 +3,8 @@ package gojobs
 import (
 	"context"
 	"fmt"
-	"go.dtapp.net/library/utils/gorequest"
-	"go.dtapp.net/library/utils/gotime"
+	"github.com/mazesoul87/go-library/utils/gorequest"
+	"github.com/mazesoul87/go-library/utils/gotime"
 	"time"
 )
 

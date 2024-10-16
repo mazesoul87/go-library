@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 	"github.com/gin-gonic/gin"
-	"go.dtapp.net/library/utils/gostring"
+	"github.com/mazesoul87/go-library/utils/gostring"
 )
 
 // CustomTraceIdContext 自定义设置跟踪编号上下文

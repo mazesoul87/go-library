@@ -3,7 +3,7 @@ package qqwry
 import (
 	"encoding/binary"
 	"errors"
-	"go.dtapp.net/library/utils/gostring"
+	"github.com/mazesoul87/go-library/utils/gostring"
 	"golang.org/x/text/encoding/simplifiedchinese"
 	"net"
 )

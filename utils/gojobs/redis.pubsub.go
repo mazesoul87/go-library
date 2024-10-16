@@ -3,9 +3,9 @@ package gojobs
 import (
 	"context"
 	"fmt"
+	"github.com/mazesoul87/go-library/utils/gojson"
+	"github.com/mazesoul87/go-library/utils/gorequest"
 	"github.com/redis/go-redis/v9"
-	"go.dtapp.net/library/utils/gojson"
-	"go.dtapp.net/library/utils/gorequest"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/codes"
 	"go.opentelemetry.io/otel/trace"

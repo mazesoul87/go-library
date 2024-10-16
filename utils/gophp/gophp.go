@@ -1,7 +1,7 @@
 package gophp
 
 import (
-	"go.dtapp.net/library/utils/gophp/serialize"
+	"github.com/mazesoul87/go-library/utils/gophp/serialize"
 	"reflect"
 	"strconv"
 	"strings"

@@ -1,30 +1,30 @@
-module go.dtapp.net/library/utils/golog
+module github.com/mazesoul87/go-library/utils/golog
 
 go 1.23.0
 
-replace go.dtapp.net/library/utils/gojson => ../../utils/gojson
+replace github.com/mazesoul87/go-library/utils/gojson => ../../utils/gojson
 
-replace go.dtapp.net/library/utils/gotime => ../../utils/gotime
+replace github.com/mazesoul87/go-library/utils/gotime => ../../utils/gotime
 
-replace go.dtapp.net/library/utils/gorequest => ../../utils/gorequest
+replace github.com/mazesoul87/go-library/utils/gorequest => ../../utils/gorequest
 
-replace go.dtapp.net/library/utils/gostring => ../../utils/gostring
+replace github.com/mazesoul87/go-library/utils/gostring => ../../utils/gostring
 
-replace go.dtapp.net/library/utils/gorandom => ../../utils/gorandom
+replace github.com/mazesoul87/go-library/utils/gorandom => ../../utils/gorandom
 
-replace go.dtapp.net/library/contrib/gin-requestid => ../../contrib/gin-requestid
+replace github.com/mazesoul87/go-library/contrib/gin-requestid => ../../contrib/gin-requestid
 
-replace go.dtapp.net/library/contrib/hertz-requestid => ../../contrib/hertz-requestid
+replace github.com/mazesoul87/go-library/contrib/hertz-requestid => ../../contrib/hertz-requestid
 
 require (
 	entgo.io/ent v0.14.1
 	github.com/cloudwego/hertz v0.9.2
 	github.com/gin-gonic/gin v1.10.0
-	go.dtapp.net/library/contrib/gin-requestid v1.0.2
-	go.dtapp.net/library/contrib/hertz-requestid v1.0.2
-	go.dtapp.net/library/utils/gojson v1.0.7
-	go.dtapp.net/library/utils/gorequest v1.0.83
-	go.dtapp.net/library/utils/gotime v1.0.12
+	github.com/mazesoul87/go-library/contrib/gin-requestid v1.0.2
+	github.com/mazesoul87/go-library/contrib/hertz-requestid v1.0.2
+	github.com/mazesoul87/go-library/utils/gojson v1.0.7
+	github.com/mazesoul87/go-library/utils/gorequest v1.0.83
+	github.com/mazesoul87/go-library/utils/gotime v1.0.12
 	go.opentelemetry.io/otel v1.30.0
 	go.opentelemetry.io/otel/trace v1.30.0
 	gopkg.in/natefinch/lumberjack.v2 v2.2.1
@@ -67,8 +67,8 @@ require (
 	github.com/tidwall/pretty v1.2.1 // indirect
 	github.com/twitchyliquid64/golang-asm v0.15.1 // indirect
 	github.com/ugorji/go/codec v1.2.12 // indirect
-	go.dtapp.net/library/utils/gorandom v1.0.4 // indirect
-	go.dtapp.net/library/utils/gostring v1.0.21 // indirect
+	github.com/mazesoul87/go-library/utils/gorandom v1.0.4 // indirect
+	github.com/mazesoul87/go-library/utils/gostring v1.0.21 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/httptrace/otelhttptrace v0.55.0 // indirect
 	go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp v0.55.0 // indirect
 	go.opentelemetry.io/otel/metric v1.30.0 // indirect

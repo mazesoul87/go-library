@@ -2,7 +2,7 @@ package gojobs
 
 import (
 	"context"
-	"go.dtapp.net/library/utils/gorequest"
+	"github.com/mazesoul87/go-library/utils/gorequest"
 	"strings"
 )
 

@@ -1,4 +1,4 @@
-module go.dtapp.net/library/contrib/hertz-requestid
+module github.com/mazesoul87/go-library/contrib/hertz-requestid
 
 go 1.23
 

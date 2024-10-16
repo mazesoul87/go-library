@@ -1,4 +1,4 @@
-module go.dtapp.net/library/utils/gostorage
+module github.com/mazesoul87/go-library/utils/gostorage
 
 go 1.22.4
 

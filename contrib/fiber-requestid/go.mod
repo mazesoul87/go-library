@@ -1,4 +1,4 @@
-module go.dtapp.net/library/contrib/fiber-requestid
+module github.com/mazesoul87/go-library/contrib/fiber-requestid
 
 go 1.23
 

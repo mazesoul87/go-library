@@ -1,25 +1,25 @@
-module go.dtapp.net/library/utils/gobase64
+module github.com/mazesoul87/go-library/utils/gobase64
 
 go 1.23
 
 toolchain go1.23.2
 
-replace go.dtapp.net/library/utils/gophp => ../../utils/gophp
+replace github.com/mazesoul87/go-library/utils/gophp => ../../utils/gophp
 
-replace go.dtapp.net/library/utils/gostring => ../../utils/gostring
+replace github.com/mazesoul87/go-library/utils/gostring => ../../utils/gostring
 
-replace go.dtapp.net/library/utils/gotime => ../../utils/gotime
+replace github.com/mazesoul87/go-library/utils/gotime => ../../utils/gotime
 
-replace go.dtapp.net/library/utils/gorandom => ../../utils/gorandom
+replace github.com/mazesoul87/go-library/utils/gorandom => ../../utils/gorandom
 
-require go.dtapp.net/library/utils/gophp v1.0.7
+require github.com/mazesoul87/go-library/utils/gophp v1.0.7
 
 require (
 	github.com/basgys/goxml2json v1.1.0 // indirect
-	go.dtapp.net/library/utils/gojson v1.0.7 // indirect
-	go.dtapp.net/library/utils/gorandom v1.0.4 // indirect
-	go.dtapp.net/library/utils/gostring v1.0.20 // indirect
-	go.dtapp.net/library/utils/gotime v1.0.12 // indirect
+	github.com/mazesoul87/go-library/utils/gojson v1.0.7 // indirect
+	github.com/mazesoul87/go-library/utils/gorandom v1.0.4 // indirect
+	github.com/mazesoul87/go-library/utils/gostring v1.0.20 // indirect
+	github.com/mazesoul87/go-library/utils/gotime v1.0.12 // indirect
 	golang.org/x/net v0.28.0 // indirect
 	golang.org/x/text v0.17.0 // indirect
 )

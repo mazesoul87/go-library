@@ -2,7 +2,7 @@ package gorequest
 
 import (
 	"context"
-	"go.dtapp.net/library/utils/gojson"
+	"github.com/mazesoul87/go-library/utils/gojson"
 	"net"
 	"net/http"
 	"strings"

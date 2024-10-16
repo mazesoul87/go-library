@@ -3,7 +3,7 @@ package gotrace_id
 import (
 	"fmt"
 	"github.com/gin-gonic/gin"
-	"go.dtapp.net/library/utils/gostring"
+	"github.com/mazesoul87/go-library/utils/gostring"
 )
 
 // SetGinTraceId 设置跟踪编号 https://www.jianshu.com/p/2a1a74ad3c3a

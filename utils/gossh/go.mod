@@ -1,4 +1,4 @@
-module go.dtapp.net/library/utils/gossh
+module github.com/mazesoul87/go-library/utils/gossh
 
 go 1.22.4
 

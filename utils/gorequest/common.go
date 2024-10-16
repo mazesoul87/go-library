@@ -2,7 +2,7 @@ package gorequest
 
 import (
 	"fmt"
-	"go.dtapp.net/library/utils/gojson"
+	"github.com/mazesoul87/go-library/utils/gojson"
 )
 
 // GetParamsString 获取参数字符串

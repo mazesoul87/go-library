@@ -3,7 +3,7 @@ package gorequest
 import (
 	"context"
 	"fmt"
-	"go.dtapp.net/library/utils/gostring"
+	"github.com/mazesoul87/go-library/utils/gostring"
 )
 
 var (

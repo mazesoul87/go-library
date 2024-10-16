@@ -1,7 +1,7 @@
 package golog
 
 import (
-	"go.dtapp.net/library/utils/gotime"
+	"github.com/mazesoul87/go-library/utils/gotime"
 	"gopkg.in/natefinch/lumberjack.v2"
 	"io"
 	"log/slog"

@@ -1,17 +1,17 @@
-module go.dtapp.net/library/utils/gostring
+module github.com/mazesoul87/go-library/utils/gostring
 
 go 1.23
 
-replace go.dtapp.net/library/utils/gojson => ../../utils/gojson
+replace github.com/mazesoul87/go-library/utils/gojson => ../../utils/gojson
 
-replace go.dtapp.net/library/utils/gotime => ../../utils/gotime
+replace github.com/mazesoul87/go-library/utils/gotime => ../../utils/gotime
 
-replace go.dtapp.net/library/utils/gorandom => ../../utils/gorandom
+replace github.com/mazesoul87/go-library/utils/gorandom => ../../utils/gorandom
 
 require (
-	go.dtapp.net/library/utils/gojson v1.0.7
-	go.dtapp.net/library/utils/gorandom v1.0.4
-	go.dtapp.net/library/utils/gotime v1.0.12
+	github.com/mazesoul87/go-library/utils/gojson v1.0.7
+	github.com/mazesoul87/go-library/utils/gorandom v1.0.4
+	github.com/mazesoul87/go-library/utils/gotime v1.0.12
 )
 
 require (

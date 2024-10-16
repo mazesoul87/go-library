@@ -1,14 +1,14 @@
-module go.dtapp.net/library/utils/gotrace_id
+module github.com/mazesoul87/go-library/utils/gotrace_id
 
 go 1.23
 
 toolchain go1.23.2
 
-replace go.dtapp.net/library/utils/gostring => ../../utils/gostring
+replace github.com/mazesoul87/go-library/utils/gostring => ../../utils/gostring
 
 require (
 	github.com/gin-gonic/gin v1.10.0
-	go.dtapp.net/library/utils/gostring v1.0.20
+	github.com/mazesoul87/go-library/utils/gostring v1.0.20
 )
 
 require (
@@ -32,9 +32,9 @@ require (
 	github.com/pelletier/go-toml/v2 v2.2.2 // indirect
 	github.com/twitchyliquid64/golang-asm v0.15.1 // indirect
 	github.com/ugorji/go/codec v1.2.12 // indirect
-	go.dtapp.net/library/utils/gojson v1.0.7 // indirect
-	go.dtapp.net/library/utils/gorandom v1.0.4 // indirect
-	go.dtapp.net/library/utils/gotime v1.0.12 // indirect
+	github.com/mazesoul87/go-library/utils/gojson v1.0.7 // indirect
+	github.com/mazesoul87/go-library/utils/gorandom v1.0.4 // indirect
+	github.com/mazesoul87/go-library/utils/gotime v1.0.12 // indirect
 	golang.org/x/arch v0.8.0 // indirect
 	golang.org/x/crypto v0.26.0 // indirect
 	golang.org/x/net v0.28.0 // indirect

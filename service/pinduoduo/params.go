@@ -1,8 +1,8 @@
 package pinduoduo
 
 import (
-	"go.dtapp.net/library/utils/gorequest"
-	"go.dtapp.net/library/utils/gostring"
+	"github.com/mazesoul87/go-library/utils/gorequest"
+	"github.com/mazesoul87/go-library/utils/gostring"
 	"sort"
 	"strconv"
 	"time"

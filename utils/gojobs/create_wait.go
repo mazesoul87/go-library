@@ -3,8 +3,8 @@ package gojobs
 import (
 	"context"
 	"fmt"
-	"go.dtapp.net/library/utils/gostring"
-	"go.dtapp.net/library/utils/gotime"
+	"github.com/mazesoul87/go-library/utils/gostring"
+	"github.com/mazesoul87/go-library/utils/gotime"
 	"go.opentelemetry.io/otel/codes"
 	"gorm.io/gorm"
 )

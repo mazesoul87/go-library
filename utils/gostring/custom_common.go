@@ -3,8 +3,8 @@ package gostring
 import (
 	"errors"
 	"fmt"
-	"go.dtapp.net/library/utils/gorandom"
-	"go.dtapp.net/library/utils/gotime"
+	"github.com/mazesoul87/go-library/utils/gorandom"
+	"github.com/mazesoul87/go-library/utils/gotime"
 )
 
 // 生成18位时间[年月日时分]唯一编号

@@ -1,7 +1,7 @@
 package geoip
 
 import (
-	"go.dtapp.net/library/utils/gostring"
+	"github.com/mazesoul87/go-library/utils/gostring"
 )
 
 var licenseKey = "" // 许可证密钥

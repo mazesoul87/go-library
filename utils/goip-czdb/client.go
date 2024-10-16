@@ -1,8 +1,8 @@
 package goip_czdb
 
 import (
+	"github.com/mazesoul87/go-library/utils/gostring"
 	"github.com/zhengjianyang/goCzdb"
-	"go.dtapp.net/library/utils/gostring"
 )
 
 type Client struct {

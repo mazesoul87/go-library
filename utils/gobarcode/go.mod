@@ -1,4 +1,4 @@
-module go.dtapp.net/library/utils/gobarcode
+module github.com/mazesoul87/go-library/utils/gobarcode
 
 go 1.23
 
