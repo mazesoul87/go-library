@@ -1,8 +1,6 @@
 module github.com/mazesoul87/go-library
 
-go 1.22.5
-
-toolchain go1.23.2
+go 1.23.2
 
 require (
 	github.com/MercuryEngineering/CookieMonster v0.0.0-20180304172713-1584578b3403
