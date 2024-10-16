@@ -28,7 +28,7 @@ import (
 
 ```go
 import (
-	"github.com/mazesoul87/go-library/utils/gotime"
+	"github.com/mazesoul87/go-library/gotime"
 )
 
 gotime.Current().Now()
