@@ -7,8 +7,9 @@ import (
 
 type OrderListRangeGetResponse struct {
 	OrderListGetResponse struct {
-		TotalCount int `json:"total_count"`
-		OrderList  []struct {
+		TotalCount  int    `json:"total_count"`
+		LastOrderId string `json:"last_order_id"`
+		OrderList   []struct {
 			SepMarketFee          int    `json:"sep_market_fee"`
 			GoodsPrice            int64  `json:"goods_price"`
 			SepDuoId              int    `json:"sep_duo_id"`

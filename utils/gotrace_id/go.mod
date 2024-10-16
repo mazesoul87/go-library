@@ -1,6 +1,8 @@
 module go.dtapp.net/library/utils/gotrace_id
 
-go 1.22.5
+go 1.23
+
+toolchain go1.23.2
 
 replace go.dtapp.net/library/utils/gostring => ../../utils/gostring
 
@@ -34,10 +36,10 @@ require (
 	go.dtapp.net/library/utils/gorandom v1.0.4 // indirect
 	go.dtapp.net/library/utils/gotime v1.0.12 // indirect
 	golang.org/x/arch v0.8.0 // indirect
-	golang.org/x/crypto v0.25.0 // indirect
-	golang.org/x/net v0.27.0 // indirect
-	golang.org/x/sys v0.22.0 // indirect
-	golang.org/x/text v0.16.0 // indirect
+	golang.org/x/crypto v0.26.0 // indirect
+	golang.org/x/net v0.28.0 // indirect
+	golang.org/x/sys v0.23.0 // indirect
+	golang.org/x/text v0.17.0 // indirect
 	google.golang.org/protobuf v1.34.2 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
